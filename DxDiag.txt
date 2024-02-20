@@ -2,8 +2,6 @@
 System Information
 ------------------
       Time of this report: 2/19/2024, 11:16:47
-             Machine name: DESKTOP-HCQJV9I
-               Machine Id: {DEADB6C5-FE98-4AED-A465-9F9A67E7A58F}
          Operating System: Windows 10 Home Single Language 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)
                  Language: Portuguese (Regional Setting: Portuguese)
       System Manufacturer: Dell Inc.
@@ -54,7 +52,6 @@ Display Devices
            Chip type: Intel(R) UHD Graphics Family
             DAC type: Internal
          Device Type: Full Device (POST)
-          Device Key: Enum\PCI\VEN_8086&DEV_3E9B&SUBSYS_09491028&REV_00
        Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
  Device Problem Code: No Problem
  Driver Problem Code: Unknown
@@ -75,7 +72,7 @@ Display Devices
 Monitor Capabilities: HDR Not Supported
 Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
       Advanced Color: Not Supported
-         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4de65d949492707a\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4de65d949492707a\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4de65d949492707a\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4de65d949492707a\igd12umd64.dll
+         Driver Name: igd12umd64.dll
  Driver File Version: 27.20.0100.9664 (English)
       Driver Version: 27.20.100.9664
          DDI Version: 12
@@ -100,7 +97,6 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
            Device ID: 0x3E9B
            SubSys ID: 0x09491028
          Revision ID: 0x0000
-  Driver Strong Name: oem44.inf:5f63e53429d61c21:iCFL_w10_DS:27.20.100.9664:PCI\VEN_8086&DEV_3E9B&SUBSYS_09491028
       Rank Of Driver: 00CF0001
          Video Accel: ModeMPEG2_A ModeMPEG2_C ModeWMV9_C ModeVC1_C 
          DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeMPEG2_IDCT  DXVA2_ModeVC1_D2010  {E07EC519-E651-4CD6-AC84-1370CCEEC851}  {BCC5DB6D-A2B6-4AF0-ACE4-ADB1F787BC89}  DXVA2_ModeWMV9_IDCT  DXVA2_ModeVC1_IDCT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_Multiview_NoFGT  {C528916C-C0AF-4645-8CB2-372B6D4ADC2A}  {91CD2D6E-897B-4FA1-B0D7-51DC88010E0A}  DXVA2_ModeVP8_VLD  {442B942A-B4D9-4940-BC45-A882E5F919F3}  {97688186-56A8-4094-B543-FC9DAAA49F4B}  {1424D4DC-7CF5-4BB1-9CD7-B63717A72A6B}  {C346E8A3-CBED-4D27-87CC-A70EB4DC8C27}  {FFC79924-5EAF-4666-A736-06190F281443}  {2364D06A-F67F-4186-AED0-62B99E1784F1}  {464BDB3C-91C4-4E9B-896F-225496AC4ED6}  {28566328-F041-4466-8B14-8F5831E78F8B}  {6B4A94DB-54FE-4AE1-9BE4-7A7DAD004600}  {8C56EB1E-2B47-466F-8D33-7DBCD63F3DF2}  DXVA2_ModeHEVC_VLD_Main  {75FC75F7-C589-4A07-A25B-72E03B0383B3}  DXVA2_ModeHEVC_VLD_Main10  {07CFAFFB-5A2E-4B99-B62A-E4CA53B6D5AA}  DXVA2_ModeVP9_VLD_Profile0  DXVA2_ModeVP9_VLD_10bit_Profile2  {76988A52-DF13-419A-8E64-FFCF4A336CF5}  {80A3A7BD-89D8-4497-A2B8-2126AF7E6EB8}  {50925B7B-E931-4978-A12A-586630F095F9}  {B69C20E0-2508-8790-0305-875499E0A2D0}  {49761BEC-4B63-4349-A5FF-87FFDF088466}  
@@ -141,12 +137,12 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
     PanelFitter Caps: RGB,YUV,BILINEAR,HIGH_FILTER,STRETCH_YUV,STRETCH_RGB,IMMEDIATE,HDR (MPO3)
  PanelFitter Stretch: 5.000X - 0.334X
    Extension Drivers: 
-             Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_ext.inf_amd64_518774e518d831da\iigd_ext.inf
+             Driver Name: iigd_ext.inf
           Driver Version: 27.20.100.9664
              Driver Date: 06/01/2021
          Driver Provider: Intel Corporation
       Catalog Attributes: Universal:N/A Declarative:True 
-             Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_ext.inf_amd64_e6739a6f46843596\iigd_ext.inf
+             Driver Name: iigd_ext.inf
           Driver Version: 27.20.100.8935
              Driver Date: 10/28/2020
          Driver Provider: Intel Corporation
@@ -183,13 +179,12 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
    Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
         Monitor Name: Generic PnP Monitor
        Monitor Model: SyncMaster
-          Monitor Id: SAM0604
          Native Mode: 1920 x 1080(p) (60.000Hz)
          Output Type: HDMI
 Monitor Capabilities: HDR Not Supported
 Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
       Advanced Color: Not Supported
-         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nvdmig.inf_amd64_893ed8ff453738db\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvdmig.inf_amd64_893ed8ff453738db\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvdmig.inf_amd64_893ed8ff453738db\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvdmig.inf_amd64_893ed8ff453738db\nvldumdx.dll
+         Driver Name: nvldumdx.dll
  Driver File Version: 31.00.0015.3640 (English)
       Driver Version: 31.0.15.3640
          DDI Version: 12
@@ -209,12 +204,10 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
     Driver Date/Size: 22/06/2023 21:00:00, 774280 bytes
          WHQL Logo'd: Yes
      WHQL Date Stamp: Unknown
-   Device Identifier: {D7B71E3E-62D1-11CF-A07D-46290EC2D235}
            Vendor ID: 0x10DE
            Device ID: 0x2191
            SubSys ID: 0x09491028
          Revision ID: 0x00A1
-  Driver Strong Name: oem20.inf:0f066de3daab701f:Section200:31.0.15.3640:pci\ven_10de&dev_2191&subsys_09491028
       Rank Of Driver: 00CF0001
          Video Accel: 
          DXVA2 Modes: {86695F12-340E-4F04-9FD3-9253DD327460}  DXVA2_ModeMPEG2_VLD  {6F3EC719-3735-42CC-8063-65CC3CB36616}  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  {32FCFE3F-DE46-4A49-861B-AC71110649D5}  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  {20BB8B0A-97AA-4571-8E99-64E60606C1A6}  {15DF9B21-06C4-47F1-841E-A67C97D7F312}  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  {9947EC6F-689B-11DC-A320-0019DBBC4184}  {33FCFE41-DE46-4A49-861B-AC71110649D5}  DXVA2_ModeVP9_VLD_Profile0  DXVA2_ModeVP9_VLD_10bit_Profile2  {DDA19DC7-93B5-49F5-A9B3-2BDA28A2CE6E}  {6AFFD11E-1D96-42B1-A215-93A31F09A53D}  {914C84A3-4078-4FA9-984C-E2F262CB5C9C}  {8A1A1031-29BC-46D0-A007-E9B092CA6767}  
@@ -327,7 +320,6 @@ Sensaura(tm) ZoomFX(tm): No
             Description: Altofalantes (Realtek(R) Audio)
  Default Sound Playback: No
  Default Voice Playback: No
-            Hardware ID: INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10280949&REV_1000
         Manufacturer ID: N/A
              Product ID: N/A
                    Type: N/A
@@ -352,7 +344,6 @@ Sensaura(tm) ZoomFX(tm): No
             Description: SyncMaster (NVIDIA High Definition Audio)
  Default Sound Playback: No
  Default Voice Playback: No
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0099&SUBSYS_10280949&REV_1001
         Manufacturer ID: N/A
              Product ID: N/A
                    Type: N/A
@@ -387,7 +378,7 @@ Sound Capture Devices
               Cap Flags: 0x1
            Format Flags: 0xFFFFF
 
-            Description: PCDefault (Tecnologia IntelÆ Smart Sound)
+            Description: PCDefault (Tecnologia Intel¬Æ Smart Sound)
   Default Sound Capture: No
   Default Voice Capture: No
             Driver Name: IntcDMic.sys
@@ -407,7 +398,6 @@ Number of Devices: 1
                Location: Front
                Rotation: 0
            Manufacturer: Microsoft
-             HardwareID: USB\VID_0BDA&PID_5521&REV_8511&MI_00,USB\VID_0BDA&PID_5521&MI_00
              DriverDesc: USB Video Device
          DriverProvider: Microsoft
           DriverVersion: 10.0.19041.3758
@@ -464,13 +454,13 @@ Vendor/Product ID: 0x046D, 0xC52B
 Vendor/Product ID: 0x8087, 0x0A1E
         FF Driver: n/a
 
-      Device Name: Dispositivo de Controle de Dispositivo Port·til Convertido
+      Device Name: Dispositivo de Controle de Dispositivo Port√°til Convertido
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: 0x045E, 0x0000
         FF Driver: n/a
 
-      Device Name: Dispositivo de Controle de Dispositivo Port·til Convertido
+      Device Name: Dispositivo de Controle de Dispositivo Port√°til Convertido
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: 0x045E, 0x0000
@@ -617,7 +607,7 @@ USB Devices
 | | | Driver: hidclass.sys, 11/15/2023 00:49:23, 233472 bytes
 | | | Driver: hidparse.sys, 11/15/2023 00:49:23, 46080 bytes
 | | | 
-| | +-+ Mouse compatÌvel com HID
+| | +-+ Mouse compat√≠vel com HID
 | | | | Vendor/Product ID: 0x04D9, 0xFC58
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
 | | | | Service: mouhid
@@ -677,7 +667,7 @@ USB Devices
 | | | Driver: hidclass.sys, 11/15/2023 00:49:23, 233472 bytes
 | | | Driver: hidparse.sys, 11/15/2023 00:49:23, 46080 bytes
 | | | 
-| | +-+ Mouse compatÌvel com HID
+| | +-+ Mouse compat√≠vel com HID
 | | | | Vendor/Product ID: 0x046D, 0xC52B
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
 | | | | Service: mouhid
@@ -705,20 +695,20 @@ PS/2 Devices
 | Driver: kbdhid.sys, 12/7/2019 06:07:56, 46592 bytes
 | Driver: kbdclass.sys, 12/7/2019 06:07:56, 71480 bytes
 | 
-+ Teclado Padr„o PS/2
++ Teclado Padr√£o PS/2
 | Matching Device ID: *PNP0303
 | Service: i8042prt
 | Driver: i8042prt.sys, 12/7/2019 06:07:56, 118272 bytes
 | Driver: kbdclass.sys, 12/7/2019 06:07:56, 71480 bytes
 | 
-+ Mouse compatÌvel com HID
++ Mouse compat√≠vel com HID
 | Vendor/Product ID: 0x04F3, 0x0000
 | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
 | Service: mouhid
 | Driver: mouhid.sys, 12/7/2019 06:07:56, 35328 bytes
 | Driver: mouclass.sys, 12/7/2019 06:07:56, 67600 bytes
 | 
-+ Mouse compatÌvel com PS/2
++ Mouse compat√≠vel com PS/2
 | Matching Device ID: *PNP0F13
 | Service: i8042prt
 | Driver: mouclass.sys, 12/7/2019 06:07:56, 67600 bytes
@@ -749,29 +739,23 @@ File System: NTFS
 System Devices
 --------------
      Name: Intel(R) 300 Series Chipset Family LPC Controller (HM370) - A30D
-Device ID: PCI\VEN_8086&DEV_A30D&SUBSYS_09491028&REV_10\3&11583659&1&F8
    Driver: C:\WINDOWS\system32\DRIVERS\msisadrv.sys, 10.00.19041.3636 (English), 11/15/2023 00:49:20, 21480 bytes
 
      Name: Intel(R) PCI Express Root Port #15 - A336
-Device ID: PCI\VEN_8086&DEV_A336&SUBSYS_09491028&REV_F0\3&11583659&1&EE
    Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.19041.3996 (Portuguese), 2/15/2024 05:41:02, 478592 bytes
 
      Name: Intel(R) Thermal Subsystem - A379
-Device ID: PCI\VEN_8086&DEV_A379&SUBSYS_09491028&REV_10\3&11583659&1&90
    Driver: n/a
 
      Name: Intel(R) Serial IO I2C Host Controller - A368
-Device ID: PCI\VEN_8086&DEV_A368&SUBSYS_09491028&REV_10\3&11583659&1&A8
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\ialpss2_i2c_cnl.inf_amd64_666eecf21665eb26\iaLPSS2_I2C_CNL.sys, 30.100.2020.0007 (English), 5/15/2020 00:42:42, 196360 bytes
 
      Name: Controlador de High Definition Audio
-Device ID: PCI\VEN_10DE&DEV_1AEB&SUBSYS_09491028&REV_A1\4&182828AB&0&0108
    Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.19041.3636 (English), 11/15/2023 00:49:19, 138240 bytes
    Driver: C:\WINDOWS\system32\DRIVERS\drmk.sys, 10.00.19041.3636 (English), 11/15/2023 00:49:19, 97792 bytes
    Driver: C:\WINDOWS\system32\DRIVERS\portcls.sys, 10.00.19041.3636 (English), 11/15/2023 00:49:19, 388608 bytes
 
      Name: Intel(R) Chipset SATA/PCIe RST Premium Controller
-Device ID: PCI\VEN_8086&DEV_282A&SUBSYS_09491028&REV_10\3&11583659&1&B8
    Driver: C:\WINDOWS\system32\DRIVERS\iaStorAC.sys, 17.11.0003.1010 (English), 12/18/2022 16:24:00, 1348760 bytes
    Driver: C:\WINDOWS\system32\DRIVERS\iaStorAfs.sys, 17.11.0003.1010 (English), 12/18/2022 16:24:02, 74904 bytes
    Driver: C:\WINDOWS\system32\iaStorAfsService.exe, 17.11.0003.1010 (English), 12/18/2022 16:24:04, 3104408 bytes
@@ -783,27 +767,21 @@ Device ID: PCI\VEN_8086&DEV_282A&SUBSYS_09491028&REV_10\3&11583659&1&B8
    Driver: C:\WINDOWS\system32\RstMwEventLogMsg.dll, 17.11.0003.1010 (English), 12/18/2022 16:24:08, 28312 bytes
 
      Name: Intel(R) Management Engine Interface #1
-Device ID: PCI\VEN_8086&DEV_A360&SUBSYS_09491028&REV_10\3&11583659&1&B0
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\heci.inf_amd64_649c7923a043d3be\x64\TeeDriverW10x64.sys, 2145.01.0042.0000 (English), 11/8/2021 02:52:26, 309888 bytes
 
      Name: Intel(R) Host Bridge/DRAM Registers - 3EC4
-Device ID: PCI\VEN_8086&DEV_3EC4&SUBSYS_09491028&REV_07\3&11583659&1&00
    Driver: n/a
 
      Name: Intel(R) SPI (flash) Controller - A324
-Device ID: PCI\VEN_8086&DEV_A324&SUBSYS_09491028&REV_10\3&11583659&1&FD
    Driver: n/a
 
      Name: PCI standard RAM Controller
-Device ID: PCI\VEN_8086&DEV_A36F&SUBSYS_09491028&REV_10\3&11583659&1&A2
    Driver: n/a
 
      Name: Realtek PCIe GbE Family Controller
-Device ID: PCI\VEN_10EC&DEV_8168&SUBSYS_09491028&REV_15\01000000684CE00000
    Driver: C:\WINDOWS\system32\DRIVERS\rt640x64.sys, 10.46.1231.2020 (Portuguese), 4/30/2021 16:23:17, 1147384 bytes
 
      Name: NVIDIA GeForce GTX 1660 Ti with Max-Q Design
-Device ID: PCI\VEN_10DE&DEV_2191&SUBSYS_09491028&REV_A1\4&182828AB&0&0008
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvdmig.inf_amd64_893ed8ff453738db\NVWMI\nvPerfProvider.man, 6/23/2023 22:20:18, 14175 bytes
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvdmig.inf_amd64_893ed8ff453738db\NVWMI\nvWmi.mof, 6/23/2023 22:20:18, 148921 bytes
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvdmig.inf_amd64_893ed8ff453738db\NVWMI\nvWmi64.exe, 2.36.0000.0000 (English), 6/25/2023 02:41:38, 4514784 bytes
@@ -996,12 +974,10 @@ Device ID: PCI\VEN_10DE&DEV_2191&SUBSYS_09491028&REV_A1\4&182828AB&0&0008
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvdmig.inf_amd64_893ed8ff453738db\NvTelemetry64.dll, 14.03.0060.0000 (English), 6/25/2023 02:39:20, 4466120 bytes
 
      Name: NVIDIA USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)
-Device ID: PCI\VEN_10DE&DEV_1AEC&SUBSYS_09491028&REV_A1\4&182828AB&0&0208
    Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.19041.3996 (Portuguese), 2/15/2024 05:41:02, 621040 bytes
    Driver: C:\WINDOWS\system32\DRIVERS\UMDF\UsbXhciCompanion.dll, 10.00.19041.3996 (English), 2/15/2024 05:41:02, 143136 bytes
 
      Name: Qualcomm QCA9377 802.11ac Wireless Adapter
-Device ID: PCI\VEN_168C&DEV_0042&SUBSYS_18101028&REV_31\4&2CFBE64D&0&00EE
    Driver: C:\WINDOWS\system32\DRIVERS\Qcamain10x64.sys, 12.00.0000.1118 (English), 5/28/2021 05:38:08, 2457416 bytes
    Driver: C:\WINDOWS\system32\DRIVERS\qca9377_2_0.bin, 5/28/2021 05:38:06, 1145392 bytes
    Driver: C:\WINDOWS\system32\DRIVERS\Data9377_2_0.msc, 5/28/2021 05:38:16, 97202 bytes
@@ -1013,16 +989,13 @@ Device ID: PCI\VEN_168C&DEV_0042&SUBSYS_18101028&REV_31\4&2CFBE64D&0&00EE
    Driver: C:\WINDOWS\system32\DRIVERS\QcomWlanSrvx64.exe, 5/28/2021 05:38:08, 188728 bytes
 
      Name: Intel(R) Serial IO I2C Host Controller - A369
-Device ID: PCI\VEN_8086&DEV_A369&SUBSYS_09491028&REV_10\3&11583659&1&A9
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\ialpss2_i2c_cnl.inf_amd64_666eecf21665eb26\iaLPSS2_I2C_CNL.sys, 30.100.2020.0007 (English), 5/15/2020 00:42:42, 196360 bytes
 
      Name: Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft)
-Device ID: PCI\VEN_8086&DEV_A36D&SUBSYS_09491028&REV_10\3&11583659&1&A0
    Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.19041.3996 (Portuguese), 2/15/2024 05:41:02, 621040 bytes
    Driver: C:\WINDOWS\system32\DRIVERS\UMDF\UsbXhciCompanion.dll, 10.00.19041.3996 (English), 2/15/2024 05:41:02, 143136 bytes
 
      Name: Intel(R) Dynamic Tuning Processor Participant
-Device ID: PCI\VEN_8086&DEV_1903&SUBSYS_09491028&REV_07\3&11583659&1&20
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_e3868713e3d137ef\esif_lf.sys, 8.07.10401.16510 (English), 4/30/2021 16:22:31, 420008 bytes
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_e3868713e3d137ef\dptf_cpu.sys, 8.07.10401.16510 (English), 4/30/2021 16:22:31, 73384 bytes
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_e3868713e3d137ef\esif_uf.exe, 8.07.10401.16510 (English), 4/30/2021 16:22:30, 2254776 bytes
@@ -1054,11 +1027,9 @@ Device ID: PCI\VEN_8086&DEV_1903&SUBSYS_09491028&REV_07\3&11583659&1&20
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_e3868713e3d137ef\dsp.dv, 4/30/2021 16:22:30, 877280 bytes
 
      Name: Intel(R) Gaussian Mixture Model - 1911
-Device ID: PCI\VEN_8086&DEV_1911&SUBSYS_09491028&REV_00\3&11583659&1&40
    Driver: n/a
 
      Name: Intel(R) UHD Graphics 630
-Device ID: PCI\VEN_8086&DEV_3E9B&SUBSYS_09491028&REV_00\3&11583659&1&10
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4de65d949492707a\igdkmd64.sys, 27.20.0100.9664 (English), 6/8/2021 19:28:58, 28973600 bytes
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4de65d949492707a\iglhxs64.vp, 6/8/2021 19:29:04, 5204 bytes
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4de65d949492707a\igd10iumd64.dll, 27.20.0100.9664 (English), 6/8/2021 19:28:42, 19228960 bytes
@@ -1193,27 +1164,21 @@ Device ID: PCI\VEN_8086&DEV_3E9B&SUBSYS_09491028&REV_00\3&11583659&1&10
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_4de65d949492707a\IntelCpHeciSvc.exe, 9.02.0001.0920 (English), 6/8/2021 19:29:08, 521240 bytes
 
      Name: Intel(R) PCI Express Root Port #14 - A335
-Device ID: PCI\VEN_8086&DEV_A335&SUBSYS_09491028&REV_F0\3&11583659&1&E8
    Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.19041.3996 (Portuguese), 2/15/2024 05:41:02, 478592 bytes
 
      Name: NVIDIA USB Type-C Port Policy Controller
-Device ID: PCI\VEN_10DE&DEV_1AED&SUBSYS_09491028&REV_A1\4&182828AB&0&0308
    Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvppc.inf_amd64_b9ce8a54d5a31e95\UcmCxUcsiNvppc.sys, 1.50.0831.0832 (English), 6/23/2023 22:20:18, 713304 bytes
 
      Name: Intel(R) VROC Virtual Controller
-Device ID: PCI\VEN_8086&DEV_A37C&SUBSYS_09491028&REV_10\3&11583659&1&98
    Driver: C:\WINDOWS\system32\DRIVERS\IaRNVMe.sys, 6.02.0000.1234 (English), 12/9/2020 19:56:49, 963248 bytes
 
      Name: Intel(R) PCIe Controller (x16) - 1901
-Device ID: PCI\VEN_8086&DEV_1901&SUBSYS_09491028&REV_07\3&11583659&1&08
    Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.19041.3996 (Portuguese), 2/15/2024 05:41:02, 478592 bytes
 
      Name: Synaptics SMBus Driver
-Device ID: PCI\VEN_8086&DEV_A323&SUBSYS_09491028&REV_10\3&11583659&1&FC
    Driver: C:\WINDOWS\system32\DRIVERS\Smb_driver_Intel.sys, 19.05.0010.0020 (English), 12/9/2020 19:56:34, 56840 bytes
 
-     Name: controlador de ·udio da tecnologia Intel(R) Smart Sound
-Device ID: PCI\VEN_8086&DEV_A348&SUBSYS_09491028&REV_10\3&11583659&1&FB
+     Name: controlador de √°udio da tecnologia Intel(R) Smart Sound
    Driver: C:\WINDOWS\system32\DRIVERS\IntcAudioBus.sys, 10.23.0000.3349 (English), 3/13/2020 13:18:14, 292936 bytes
    Driver: C:\WINDOWS\system32\DRIVERS\drmk.sys, 10.00.19041.3636 (English), 11/15/2023 00:49:19, 97792 bytes
    Driver: C:\WINDOWS\system32\DRIVERS\portcls.sys, 10.00.19041.3636 (English), 11/15/2023 00:49:19, 388608 bytes
@@ -1318,7 +1283,7 @@ MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.19041.3636
 
 Audio Capture Sources:
 Microfone (2- USB Audio Device),0x00200000,0,0,qcap.dll,10.00.19041.0001
-PCDefault (Tecnologia IntelÆ Smart Sound),0x00200000,0,0,qcap.dll,10.00.19041.0001
+PCDefault (Tecnologia Intel¬Æ Smart Sound),0x00200000,0,0,qcap.dll,10.00.19041.0001
 
 PBDA CP Filters:
 PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.19041.3996
@@ -1337,7 +1302,7 @@ Screaming Bee Wave,0x00200000,1,1,ksproxy.ax,10.00.19041.3636
 ,0x00000000,0,0,,
 USB Audio Device,0x00200000,2,2,ksproxy.ax,10.00.19041.3636
 Integrated Webcam,0x00200000,1,1,ksproxy.ax,10.00.19041.3636
-Microfone da Tecnologia IntelÆ Smart Sound,0x00200000,1,4,ksproxy.ax,10.00.19041.3636
+Microfone da Tecnologia Intel¬Æ Smart Sound,0x00200000,1,4,ksproxy.ax,10.00.19041.3636
 
 WDM Streaming Rendering Devices:
 Realtek HD Audio 2nd output with SST,0x00200000,1,1,ksproxy.ax,10.00.19041.3636
@@ -1464,9 +1429,9 @@ Media Foundation Transforms
   <transform friendly name>, <transform CLSID>, <flags>, [<merit>, ]<file name>, <file version>
 
 Video Decoders:
-  IntelÆ Hardware M-JPEG Decoder MFT, {00C69F81-0524-48C0-A353-4DD9D54F9A6E}, 0x6, 7, mfx_mft_mjpgvd_64.dll, 11.21.0005.0007
+  Intel¬Æ Hardware M-JPEG Decoder MFT, {00C69F81-0524-48C0-A353-4DD9D54F9A6E}, 0x6, 7, mfx_mft_mjpgvd_64.dll, 11.21.0005.0007
   NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpegx.dll, 31.00.0015.3640
-  IntelÆ Hardware M-JPEG Decoder MFT, {00C69F81-0524-48C0-A353-4DD9D54F9A6E}, 0x6, 7, mfx_mft_mjpgvd_64.dll, 11.21.0005.0007
+  Intel¬Æ Hardware M-JPEG Decoder MFT, {00C69F81-0524-48C0-A353-4DD9D54F9A6E}, 0x6, 7, mfx_mft_mjpgvd_64.dll, 11.21.0005.0007
   Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.19041.4046
   DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.19041.0001
   Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.19041.3636
@@ -1482,12 +1447,12 @@ Video Decoders:
   WebpImageExtension
   HEVCVideoExtension
 Video Encoders:
-  IntelÆ Quick Sync Video H.264 Encoder MFT, {4BE8D3C0-0515-4A37-AD55-E4BAE19AF471}, 0x4, 7, mfx_mft_h264ve_64.dll, 11.21.0005.0007
+  Intel¬Æ Quick Sync Video H.264 Encoder MFT, {4BE8D3C0-0515-4A37-AD55-E4BAE19AF471}, 0x4, 7, mfx_mft_h264ve_64.dll, 11.21.0005.0007
   NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264x.dll, 31.00.0015.3640
   NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevcx.dll, 31.00.0015.3640
-  IntelÆ Hardware H265 Encoder MFT, {BC10864D-2B34-408F-912A-102B1B867B6C}, 0x4, 7, mfx_mft_h265ve_64.dll, 11.21.0005.0007
-  IntelÆ Quick Sync Video H.264 Encoder MFT, {4BE8D3C0-0515-4A37-AD55-E4BAE19AF471}, 0x4, 7, mfx_mft_h264ve_64.dll, 11.21.0005.0007
-  IntelÆ Hardware H265 Encoder MFT, {BC10864D-2B34-408F-912A-102B1B867B6C}, 0x4, 7, mfx_mft_h265ve_64.dll, 11.21.0005.0007
+  Intel¬Æ Hardware H265 Encoder MFT, {BC10864D-2B34-408F-912A-102B1B867B6C}, 0x4, 7, mfx_mft_h265ve_64.dll, 11.21.0005.0007
+  Intel¬Æ Quick Sync Video H.264 Encoder MFT, {4BE8D3C0-0515-4A37-AD55-E4BAE19AF471}, 0x4, 7, mfx_mft_h264ve_64.dll, 11.21.0005.0007
+  Intel¬Æ Hardware H265 Encoder MFT, {BC10864D-2B34-408F-912A-102B1B867B6C}, 0x4, 7, mfx_mft_h265ve_64.dll, 11.21.0005.0007
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.19041.3636
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.19041.3636
   H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.19041.0001
@@ -1809,7 +1774,7 @@ Windows Error Reporting:
 +++ WER0 +++:
 Falha no bucket 2070902922622166608, tipo 5
 Nome do Evento: MoAppCrash
-Resposta: N„o disponÌvel
+Resposta: N√£o dispon√≠vel
 ID do CAB: 0
 
 Assinatura do problema:
@@ -1827,19 +1792,19 @@ P10:
 Arquivos anexados:
 \\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER2BA2.tmp.WERInternalMetadata.xml
 
-Esses arquivos talvez estejam disponÌveis em:
+Esses arquivos talvez estejam dispon√≠veis em:
 \\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_DellInc.Alienwar_57b9f879f1a593dafd5c6654a76dd040a42ce5c4_5ff730bd_0b7dca60-1422-4837-92ae-dd24af0a52a9
 
-SÌmbolo da an·lise: 
-Verificando novamente se h· uma soluÁ„o: 0
-ID do RelatÛrio: c079bf12-3014-42e5-996f-544407973f5a
-Status do RelatÛrio: 268435456
+S√≠mbolo da an√°lise: 
+Verificando novamente se h√° uma solu√ß√£o: 0
+ID do Relat√≥rio: c079bf12-3014-42e5-996f-544407973f5a
+Status do Relat√≥rio: 268435456
 Bucket com hash: f1521282d21a92df7cbd533c6b366650
 Guid do CAB: 0
 +++ WER1 +++:
 Falha no bucket , tipo 0
 Nome do Evento: MoAppCrash
-Resposta: N„o disponÌvel
+Resposta: N√£o dispon√≠vel
 ID do CAB: 0
 
 Assinatura do problema:
@@ -1856,19 +1821,19 @@ P10:
 
 Arquivos anexados:
 
-Esses arquivos talvez estejam disponÌveis em:
+Esses arquivos talvez estejam dispon√≠veis em:
 \\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_DellInc.Alienwar_57b9f879f1a593dafd5c6654a76dd040a42ce5c4_5ff730bd_0b7dca60-1422-4837-92ae-dd24af0a52a9
 
-SÌmbolo da an·lise: 
-Verificando novamente se h· uma soluÁ„o: 0
-ID do RelatÛrio: c079bf12-3014-42e5-996f-544407973f5a
-Status do RelatÛrio: 4
+S√≠mbolo da an√°lise: 
+Verificando novamente se h√° uma solu√ß√£o: 0
+ID do Relat√≥rio: c079bf12-3014-42e5-996f-544407973f5a
+Status do Relat√≥rio: 4
 Bucket com hash: 
 Guid do CAB: 0
 +++ WER2 +++:
 Falha no bucket 2070902922622166608, tipo 5
 Nome do Evento: MoAppCrash
-Resposta: N„o disponÌvel
+Resposta: N√£o dispon√≠vel
 ID do CAB: 0
 
 Assinatura do problema:
@@ -1886,19 +1851,19 @@ P10:
 Arquivos anexados:
 \\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WEREF51.tmp.WERInternalMetadata.xml
 
-Esses arquivos talvez estejam disponÌveis em:
+Esses arquivos talvez estejam dispon√≠veis em:
 \\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_DellInc.Alienwar_57b9f879f1a593dafd5c6654a76dd040a42ce5c4_5ff730bd_16e1fedf-b86f-4966-9a66-80688eaa9f9b
 
-SÌmbolo da an·lise: 
-Verificando novamente se h· uma soluÁ„o: 0
-ID do RelatÛrio: baf851d2-ae06-41c8-916b-1af3760d4195
-Status do RelatÛrio: 268435456
+S√≠mbolo da an√°lise: 
+Verificando novamente se h√° uma solu√ß√£o: 0
+ID do Relat√≥rio: baf851d2-ae06-41c8-916b-1af3760d4195
+Status do Relat√≥rio: 268435456
 Bucket com hash: f1521282d21a92df7cbd533c6b366650
 Guid do CAB: 0
 +++ WER3 +++:
 Falha no bucket , tipo 0
 Nome do Evento: MoAppCrash
-Resposta: N„o disponÌvel
+Resposta: N√£o dispon√≠vel
 ID do CAB: 0
 
 Assinatura do problema:
@@ -1915,19 +1880,19 @@ P10:
 
 Arquivos anexados:
 
-Esses arquivos talvez estejam disponÌveis em:
+Esses arquivos talvez estejam dispon√≠veis em:
 \\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_DellInc.Alienwar_57b9f879f1a593dafd5c6654a76dd040a42ce5c4_5ff730bd_16e1fedf-b86f-4966-9a66-80688eaa9f9b
 
-SÌmbolo da an·lise: 
-Verificando novamente se h· uma soluÁ„o: 0
-ID do RelatÛrio: baf851d2-ae06-41c8-916b-1af3760d4195
-Status do RelatÛrio: 4
+S√≠mbolo da an√°lise: 
+Verificando novamente se h√° uma solu√ß√£o: 0
+ID do Relat√≥rio: baf851d2-ae06-41c8-916b-1af3760d4195
+Status do Relat√≥rio: 4
 Bucket com hash: 
 Guid do CAB: 0
 +++ WER4 +++:
 Falha no bucket 2070902922622166608, tipo 5
 Nome do Evento: MoAppCrash
-Resposta: N„o disponÌvel
+Resposta: N√£o dispon√≠vel
 ID do CAB: 0
 
 Assinatura do problema:
@@ -1949,19 +1914,19 @@ Arquivos anexados:
 \\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB06.tmp.csv
 \\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB36.tmp.txt
 
-Esses arquivos talvez estejam disponÌveis em:
+Esses arquivos talvez estejam dispon√≠veis em:
 \\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_DellInc.Alienwar_57b9f879f1a593dafd5c6654a76dd040a42ce5c4_5ff730bd_5391d7b3-2a22-4f3f-bea8-9af45b2efef8
 
-SÌmbolo da an·lise: 
-Verificando novamente se h· uma soluÁ„o: 0
-ID do RelatÛrio: 8bbe808d-af67-443e-866a-daf91986af7e
-Status do RelatÛrio: 268435456
+S√≠mbolo da an√°lise: 
+Verificando novamente se h√° uma solu√ß√£o: 0
+ID do Relat√≥rio: 8bbe808d-af67-443e-866a-daf91986af7e
+Status do Relat√≥rio: 268435456
 Bucket com hash: f1521282d21a92df7cbd533c6b366650
 Guid do CAB: 0
 +++ WER5 +++:
 Falha no bucket 1378504445693464048, tipo 5
 Nome do Evento: RADAR_PRE_LEAK_64
-Resposta: N„o disponÌvel
+Resposta: N√£o dispon√≠vel
 ID do CAB: 0
 
 Assinatura do problema:
@@ -1983,19 +1948,19 @@ Arquivos anexados:
 \\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERD31B.tmp.csv
 \\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERD34A.tmp.txt
 
-Esses arquivos talvez estejam disponÌveis em:
+Esses arquivos talvez estejam dispon√≠veis em:
 
 
-SÌmbolo da an·lise: 
-Verificando novamente se h· uma soluÁ„o: 0
-ID do RelatÛrio: 4258d8ea-ac2e-426f-9f76-d13d7624ae15
-Status do RelatÛrio: 268435456
+S√≠mbolo da an√°lise: 
+Verificando novamente se h√° uma solu√ß√£o: 0
+ID do Relat√≥rio: 4258d8ea-ac2e-426f-9f76-d13d7624ae15
+Status do Relat√≥rio: 268435456
 Bucket com hash: 226ae54af685b1b713216e7d5edb0df0
 Guid do CAB: 0
 +++ WER6 +++:
 Falha no bucket 1819753350245077795, tipo 5
 Nome do Evento: AppHangB1
-Resposta: N„o disponÌvel
+Resposta: N√£o dispon√≠vel
 ID do CAB: 0
 
 Assinatura do problema:
@@ -2017,19 +1982,19 @@ Arquivos anexados:
 \\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERDE6.tmp.txt
 \\?\C:\Users\samuk\AppData\Local\Temp\WER15A7.tmp.appcompat.txt
 
-Esses arquivos talvez estejam disponÌveis em:
+Esses arquivos talvez estejam dispon√≠veis em:
 \\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppHang_msedge.exe_534649926fbf4a019ff8bdff2f3cdb6d3afb8cc_b25f43ca_eacad464-364f-4d7b-8881-8469936b59e5
 
-SÌmbolo da an·lise: 
-Verificando novamente se h· uma soluÁ„o: 0
-ID do RelatÛrio: 80cdc2b8-757e-46a4-9b54-48af27a623aa
-Status do RelatÛrio: 268435456
+S√≠mbolo da an√°lise: 
+Verificando novamente se h√° uma solu√ß√£o: 0
+ID do Relat√≥rio: 80cdc2b8-757e-46a4-9b54-48af27a623aa
+Status do Relat√≥rio: 268435456
 Bucket com hash: 90c2924c0e14d2bc89411007d42f5323
 Guid do CAB: 0
 +++ WER7 +++:
 Falha no bucket 2217721075394731429, tipo 5
 Nome do Evento: MoAppCrash
-Resposta: N„o disponÌvel
+Resposta: N√£o dispon√≠vel
 ID do CAB: 0
 
 Assinatura do problema:
@@ -2047,19 +2012,19 @@ P10:
 Arquivos anexados:
 \\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERE6E3.tmp.WERInternalMetadata.xml
 
-Esses arquivos talvez estejam disponÌveis em:
+Esses arquivos talvez estejam dispon√≠veis em:
 \\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Microsoft.Gaming_8bf6cbffdf2d48f199b975d69de3c26f4059c9e7_fb6779ee_1c889e21-ab7a-40dc-a97f-ed32b37f988a
 
-SÌmbolo da an·lise: 
-Verificando novamente se h· uma soluÁ„o: 0
-ID do RelatÛrio: b8fb6089-e259-423c-a7c4-52b965bc73cc
-Status do RelatÛrio: 268435456
+S√≠mbolo da an√°lise: 
+Verificando novamente se h√° uma solu√ß√£o: 0
+ID do Relat√≥rio: b8fb6089-e259-423c-a7c4-52b965bc73cc
+Status do Relat√≥rio: 268435456
 Bucket com hash: 6348fff2054da51b1ec6ed916dccdda5
 Guid do CAB: 0
 +++ WER8 +++:
 Falha no bucket , tipo 0
 Nome do Evento: MoAppCrash
-Resposta: N„o disponÌvel
+Resposta: N√£o dispon√≠vel
 ID do CAB: 0
 
 Assinatura do problema:
@@ -2076,19 +2041,19 @@ P10:
 
 Arquivos anexados:
 
-Esses arquivos talvez estejam disponÌveis em:
+Esses arquivos talvez estejam dispon√≠veis em:
 \\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_Microsoft.Gaming_8bf6cbffdf2d48f199b975d69de3c26f4059c9e7_fb6779ee_1c889e21-ab7a-40dc-a97f-ed32b37f988a
 
-SÌmbolo da an·lise: 
-Verificando novamente se h· uma soluÁ„o: 0
-ID do RelatÛrio: b8fb6089-e259-423c-a7c4-52b965bc73cc
-Status do RelatÛrio: 4
+S√≠mbolo da an√°lise: 
+Verificando novamente se h√° uma solu√ß√£o: 0
+ID do Relat√≥rio: b8fb6089-e259-423c-a7c4-52b965bc73cc
+Status do Relat√≥rio: 4
 Bucket com hash: 
 Guid do CAB: 0
 +++ WER9 +++:
 Falha no bucket 1444658666933120059, tipo 5
 Nome do Evento: StoreAgentDownloadFailure1
-Resposta: N„o disponÌvel
+Resposta: N√£o dispon√≠vel
 ID do CAB: 0
 
 Assinatura do problema:
@@ -2106,12 +2071,12 @@ P10:
 Arquivos anexados:
 \\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER29E0.tmp.WERInternalMetadata.xml
 
-Esses arquivos talvez estejam disponÌveis em:
+Esses arquivos talvez estejam dispon√≠veis em:
 \\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;ScanForUp_5a7ce0ab24c1ba4588209f669e7950b36febb84_00000000_58bd0bf3-4f76-4938-82c8-fa68897f31de
 
-SÌmbolo da an·lise: 
-Verificando novamente se h· uma soluÁ„o: 0
-ID do RelatÛrio: 58bd0bf3-4f76-4938-82c8-fa68897f31de
-Status do RelatÛrio: 268435456
+S√≠mbolo da an√°lise: 
+Verificando novamente se h√° uma solu√ß√£o: 0
+ID do Relat√≥rio: 58bd0bf3-4f76-4938-82c8-fa68897f31de
+Status do Relat√≥rio: 268435456
 Bucket com hash: 8dcf0e578e47e3dfa40c7567483cec3b
 Guid do CAB: 0
